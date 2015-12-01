@@ -10,7 +10,7 @@ var current;
 var previous;
 
 function setup() {
-  createCanvas(1080, 720);
+  createCanvas(2000, 2000);
   current = createVector(0,0);
   previous = createVector(0,0);
   colorMode(HSB, width, height, 100); 
